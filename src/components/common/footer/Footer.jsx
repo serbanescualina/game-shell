@@ -1,3 +1,3 @@
 export const Footer =()=> {
-    return<>footer</>
+    return <div className="container mx-auto px-4">footer</div>
 }
