@@ -20,6 +20,12 @@ const initialState = {
         };
   
         return newState;
+        case 'auth/logOut':
+           return {
+            ...state, 
+            authenticated: false,
+             established: false,
+              user:{},}
       default:
         return state;
     }
